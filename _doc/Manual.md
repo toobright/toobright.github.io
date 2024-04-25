@@ -183,7 +183,6 @@ friends: [
 
 ### Keynote Layout
 
-![](http://huangxuan.me/img/blog-keynote.jpg)
 
 There is a increased trend to use Open Web technology for keynotes and presentations via Reveal.js, Impress.js, Slides, Prezi etc. I consider a modern blog should have first-class support to embed these HTML based presentation so **Keynote layout** are made.
 
@@ -227,11 +226,11 @@ From V1.5, Google Analytics and Baidu Tongji are supported with a simple config 
 
 ```yml
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: 
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id:           # Format: UA-xxxxxx-xx
+ga_domain:
 ```
 
 Just checkout the code offered by Google/Baidu, and copy paste here, all the rest is already done for you.

@@ -182,7 +182,6 @@ friends: [
 
 HTML5幻灯片的排版：
 
-![](http://huangxuan.me/img/blog-keynote.jpg)
 
 这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.我认为一个现代化的博客怎么能少了放html幻灯的功能呢~
 
@@ -225,11 +224,11 @@ disqus_username: _你的用户名_
 
 ```
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: 
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
+ga_track_id:            # 你用Google账号去注册一个就会给你一个这样的id
+ga_domain:		# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
 ```
 
 #### Customization
