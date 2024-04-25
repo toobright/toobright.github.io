@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-#weibo_username: Mattpro
-#zhihu_username: Mattpro
-#github_username: Mattpro
-#twitter_username: Mattpro
-#facebook_username:  Mattpro
+#weibo_username: 
+#zhihu_username: 
+#github_username: 
+#twitter_username: 
+#facebook_username:  
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -74,7 +74,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Stay Hungry"
+sidebar-about-description: "可以不屠龙,不能不磨剑"
 sidebar-avatar: /img/about-matt.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags

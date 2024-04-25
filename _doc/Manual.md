@@ -58,8 +58,8 @@ SEOTitle: Matt Blog          # check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
-github_username: Mattpro     # modify this account to yours
-weibo_username: Mattpro      # the footer woule be auto-updated.
+github_username:      # modify this account to yours
+weibo_username:       # the footer woule be auto-updated.
 
 # Build settings
 paginate: 10                # nums of posts in one page
