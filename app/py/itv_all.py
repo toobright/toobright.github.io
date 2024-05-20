@@ -330,7 +330,7 @@ with open("../tvs/itvlist.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
 
-with open("itvlist.m3u", 'w', encoding='utf-8') as file:
+with open("../tvs/itvlist.m3u", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('#EXTM3U\n')
     for result in results:
