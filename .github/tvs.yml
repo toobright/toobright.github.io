@@ -2,7 +2,7 @@ name: itvlist
 
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 02 * * *'
   push:
     branches:
       - main
@@ -25,16 +25,16 @@ jobs:
         run: pip install selenium==4.19.0 requests==2.31.0 futures==3.0.5 eventlet==0.36.1
 
       - name: Run itv_all
-        run: python ${{ github.workspace }}/itv_all.py
+        run: python ${{ github.workspace }}/app/py/itv_all.py
 
       #- name: Run cctv
-        #run: python ${{ github.workspace }}/cctv.py
+        #run: python ${{ github.workspace }}/app/py/cctv.py
         
       #- name: Run weishi
-        #run: python ${{ github.workspace }}/weishi.py
+        #run: python ${{ github.workspace }}/app/py/weishi.py
         
       #- name: Run qita
-        #run: python ${{ github.workspace }}/qita.py
+        #run: python ${{ github.workspace }}/app/py/qita.py
         
       - name: 提交更改
         run: |
