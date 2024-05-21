@@ -3,9 +3,9 @@ name: itvlist
 on:
   schedule:
     - cron: '0 2 * * *'
-  push:
-    branches:
-      - main
+  #push:
+    #branches:
+      #- main
 
 jobs:
   build:
@@ -27,15 +27,6 @@ jobs:
       - name: Run itv_all
         run: python ${{ github.workspace }}/app/py/itv_all.py
 
-      #- name: Run cctv
-        #run: python ${{ github.workspace }}/app/py/cctv.py
-        
-      #- name: Run weishi
-        #run: python ${{ github.workspace }}/app/py/weishi.py
-        
-      #- name: Run qita
-        #run: python ${{ github.workspace }}/app/py/qita.py
-        
       - name: 提交更改
         run: |
           git config --local user.email "19400950+toobright@users.noreply.github.com"
